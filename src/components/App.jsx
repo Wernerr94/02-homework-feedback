@@ -23,9 +23,8 @@ class App extends Component {
     return ((x / (x + y + z)) * 100).toFixed(0);
   };
   render() {
-    const { good } = this.state;
-    const { neutral } = this.state;
-    const { bad } = this.state;
+    const { good, neutral, bad } = this.state;
+
     return (
       <div>
         <Section title="Please leave feedback">
